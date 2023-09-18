@@ -1,8 +1,14 @@
 {
   "builds": [
     {
-      "src": "Satyajit888/ResearchMFA",
+      "src": "Satyajit888/ResearchMFA/vercel",
       "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "Satyajit88/ResearchMFA/passenger_swgi.py"
     }
   ]
 }
