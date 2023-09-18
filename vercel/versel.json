@@ -1,0 +1,8 @@
+{
+  "builds": [
+    {
+      "src": "Satyajit888/ResearchMFA",
+      "use": "@vercel/python"
+    }
+  ]
+}
